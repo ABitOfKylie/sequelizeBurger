@@ -1,2 +1,2 @@
-# sequelizeBurger
-Week 15 homework using: Node.js, Express, Handlebars, Sequelize  and using the MVC model
+# burger
+Week 14 homework using: Node.js, Express, Handlebars, Orm  and using the MVC model
