@@ -25,10 +25,10 @@ router.post('/create', function (req, res) {
 		
 });
 
- router.put('/burger/update/:ID', function(req,res) {
+ router.put('/burger/update/:id', function(req,res) {
 	 models.burger.update(
-	 var ID = req.params.ID;
-	 where: {ID: req.params.ID}
+	 var id = req.params.id;
+	 where: {id: req.params.id}
 	 })
 	 .then(function(result) {
 	 res.redirect('/burgers');

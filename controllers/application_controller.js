@@ -7,3 +7,6 @@ router.get('/', function(req, res) {
 });
 
 module.exports = router
+
+// previously the above was in burgers_controller.js but for some reason
+// to make the burgers_controller 'lean' created a new file for this instead.

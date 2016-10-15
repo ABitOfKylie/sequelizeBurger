@@ -10,7 +10,7 @@ var db        = {};
 
 var sequelizeConnection = new Sequelize (config.database, config.username,config)
 
-var models {};
+// var models {};
 fs
   .readdirSync(__dirname)
   .filter(function(file) {
